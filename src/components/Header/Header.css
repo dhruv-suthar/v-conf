@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.header__logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.header__logoContainer > p {
+  font-size: 22px;
+  font-weight: bold;
+  color: #5f6368;
+  margin-left: 5px;
+}
+
+.header__icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__icons > * {
+  margin-right: 20px;
+  color: #5f6368;
+}
+
+.header__avatar {
+  margin-right: -5px !important;
+}
+
+.header__icons > * {
+  cursor: pointer;
+}
